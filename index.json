@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Leslie-Orange DSH Plugins",
+    "zh": "Leslie-Orange DSH 插件"
+  },
+  "description": {
+    "en": "Account balance and completed-turn usage for DeepSeek Harness.",
+    "zh": "DeepSeek Harness 账户余额与已完成轮次用量插件。"
+  },
+  "metadata": {
+    "categories": {
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh": "效率工具"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@local/dsh-account-balance",
+      "title": {
+        "en": "Account Balance",
+        "zh": "账户余额"
+      },
+      "description": {
+        "en": "Keeps the DeepSeek account balance in the composer footer and shows completed-turn tokens and estimated token costs.",
+        "zh": "在对话框底部常驻显示 DeepSeek 账户余额，每轮结束后显示本轮 Token 和预估 Token 费用。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJBY2NvdW50IGJhbGFuY2UiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiYWxhbmNlLWJnIiB4MT0iOCIgeTE9IjYiIHgyPSI1NiIgeTI9IjYwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM1QjdDRkEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMkY0NUM1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHJ4PSIxNSIgZmlsbD0idXJsKCNiYWxhbmNlLWJnKSIvPgogIDxwYXRoIGQ9Ik0xOCAyNC41QTQuNSA0LjUgMCAwIDEgMjIuNSAyMGgxNkE0LjUgNC41IDAgMCAxIDQzIDI0LjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0xOCAyNC41VjQyYTUgNSAwIDAgMCA1IDVoMTZhNSA1IDAgMCAwIDUtNXYtMS41IiBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMi44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNNDYgMzAuNWgtNS43YTQuMjUgNC4yNSAwIDAgMCAwIDguNUg0NnoiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iLjk0Ii8+CiAgPGNpcmNsZSBjeD0iNDEuNCIgY3k9IjM0Ljc1IiByPSIxLjE1IiBmaWxsPSIjM0I1NEQ2Ii8+Cjwvc3ZnPgo=",
+      "author": "Leslie-Orange",
+      "homepage": "https://github.com/Leslie-Orange/dsh-account-balance#readme",
+      "repository": {
+        "url": "https://github.com/Leslie-Orange/dsh-account-balance"
+      },
+      "metadata": {
+        "category": "productivity",
+        "keywords": [
+          "deepseek-harness",
+          "balance",
+          "token-usage",
+          "cost-estimate"
+        ]
+      },
+      "dist-tags": {
+        "latest": "1.1.0"
+      },
+      "versions": [
+        {
+          "version": "1.1.0",
+          "publishTimestamp": 1793677498,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Leslie-Orange/dsh-account-balance",
+            "commit": "47fab96e0785feba105552bbbf3955958e5ace88"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}
