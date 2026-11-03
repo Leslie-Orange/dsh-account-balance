@@ -1,0 +1,3 @@
+- insert:
+    - id: account-balance
+      name: '@local/dsh-account-balance'

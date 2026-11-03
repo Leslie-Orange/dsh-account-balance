@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Account balance">
+  <defs>
+    <linearGradient id="balance-bg" x1="8" y1="6" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B7CFA"/>
+      <stop offset="1" stop-color="#2F45C5"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#balance-bg)"/>
+  <path d="M18 24.5A4.5 4.5 0 0 1 22.5 20h16A4.5 4.5 0 0 1 43 24.5" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M18 24.5V42a5 5 0 0 0 5 5h16a5 5 0 0 0 5-5v-1.5" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 30.5h-5.7a4.25 4.25 0 0 0 0 8.5H46z" fill="#FFFFFF" fill-opacity=".94"/>
+  <circle cx="41.4" cy="34.75" r="1.15" fill="#3B54D6"/>
+</svg>

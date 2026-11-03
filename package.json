@@ -1,0 +1,52 @@
+{
+  "name": "@local/dsh-account-balance",
+  "version": "1.1.0",
+  "private": false,
+  "author": "Leslie-Orange",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leslie-Orange/dsh-account-balance.git"
+  },
+  "homepage": "https://github.com/Leslie-Orange/dsh-account-balance#readme",
+  "engines": {
+    "dsh": "0.2.1-rc.5"
+  },
+  "type": "module",
+  "description": "Persistent DeepSeek balance and per-turn token usage with estimated token costs in the composer footer.",
+  "scripts": {
+    "test": "node tools/client-harness.cjs",
+    "check": "node --check index.js && node --check client.js && node --check tools/client-harness.cjs"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "RELEASE_NOTES.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-chat"
+      ]
+    }
+  }
+}

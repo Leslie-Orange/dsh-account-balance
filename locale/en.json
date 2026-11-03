@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Account Balance",
+    "description": "Keeps the DeepSeek account balance in the composer footer and shows completed-turn tokens and estimated token costs."
+  }
+}
