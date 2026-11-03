@@ -11,4 +11,10 @@
 
 发布验证：导出源码的 15 项隔离回归测试及 JavaScript 语法检查。自动化测试使用桩环境，不作为真机验证声明。
 
-发布附件包括 `.tgz` 安装包、源码 `.zip` 和 `SHA256SUMS.txt`。发布元数据所需的提交 SHA 应在提交后由实际 Git commit 生成。
+本版本通过公开仓库的 [dist/v1.1.0 下载目录](https://github.com/Leslie-Orange/dsh-account-balance/tree/main/dist/v1.1.0) 提供安装包、源码包、校验清单和中文说明：
+
+- [安装包](https://raw.githubusercontent.com/Leslie-Orange/dsh-account-balance/main/dist/v1.1.0/local-dsh-account-balance-1.1.0.tgz)
+- [源码 ZIP](https://raw.githubusercontent.com/Leslie-Orange/dsh-account-balance/main/dist/v1.1.0/dsh-account-balance-1.1.0-source.zip)
+- [SHA-256 校验清单](https://raw.githubusercontent.com/Leslie-Orange/dsh-account-balance/main/dist/v1.1.0/SHA256SUMS.txt)
+
+自定义插件索引位于仓库根目录 `index.json`，Git source 固定到实际源码提交。

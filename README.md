@@ -5,17 +5,17 @@
 - 包标识：`@local/dsh-account-balance`
 - 插件版本：`1.1.0`
 - 适用宿主：Windows DeepSeek Harness **`0.2.1-rc.5`**；其他版本尚未验证。
-- 项目与下载：[GitHub 仓库](https://github.com/Leslie-Orange/dsh-account-balance) · [v1.1.0 发布页](https://github.com/Leslie-Orange/dsh-account-balance/releases/tag/v1.1.0)
+- 项目与下载：[GitHub 仓库](https://github.com/Leslie-Orange/dsh-account-balance) · [v1.1.0 下载目录](https://github.com/Leslie-Orange/dsh-account-balance/tree/main/dist/v1.1.0)
 
 ## 安装
 
 先安装上述宿主版本。在 Harness 的“插件”页打开“添加插件”，粘贴以下发布包完整链接并确认安装：
 
 ```text
-https://github.com/Leslie-Orange/dsh-account-balance/releases/download/v1.1.0/local-dsh-account-balance-1.1.0.tgz
+https://raw.githubusercontent.com/Leslie-Orange/dsh-account-balance/main/dist/v1.1.0/local-dsh-account-balance-1.1.0.tgz
 ```
 
-也可先从发布页下载 `local-dsh-account-balance-1.1.0.tgz`，在“添加插件”中输入该文件的绝对本地路径。桌面安装界面说明见 [官方插件管理器文档](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/client/ui-plugin-manager/README.md)。
+也可先从版本下载目录下载 `local-dsh-account-balance-1.1.0.tgz`，在“添加插件”中输入该文件的绝对本地路径。桌面安装界面说明见 [官方插件管理器文档](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/client/ui-plugin-manager/README.md)。
 
 如果已经安装并可以执行 `dsh` CLI，可选择在下载目录的 PowerShell 中运行：
 
@@ -23,15 +23,15 @@ https://github.com/Leslie-Orange/dsh-account-balance/releases/download/v1.1.0/lo
 dsh plugin --profile desktop add .\local-dsh-account-balance-1.1.0.tgz
 ```
 
-CLI 也支持直接从发布附件地址安装：
+CLI 也支持直接从公开安装包地址安装：
 
 ```powershell
-dsh plugin --profile desktop add https://github.com/Leslie-Orange/dsh-account-balance/releases/download/v1.1.0/local-dsh-account-balance-1.1.0.tgz
+dsh plugin --profile desktop add https://raw.githubusercontent.com/Leslie-Orange/dsh-account-balance/main/dist/v1.1.0/local-dsh-account-balance-1.1.0.tgz
 ```
 
 执行后从应用菜单完整退出 Harness，再重新打开，让插件资源重新加载。仅关闭窗口到托盘可能不会重启应用。进入对话页后，输入框下方会出现余额和本轮统计；首次读取时余额可暂时显示 `—`。
 
-安装包与源码压缩包的 SHA-256 校验值随发布附件提供。PowerShell 可用 `Get-FileHash .\local-dsh-account-balance-1.1.0.tgz -Algorithm SHA256` 核对。
+版本化下载目录同时提供 [源码 ZIP](https://raw.githubusercontent.com/Leslie-Orange/dsh-account-balance/main/dist/v1.1.0/dsh-account-balance-1.1.0-source.zip) 和 [SHA-256 校验清单](https://raw.githubusercontent.com/Leslie-Orange/dsh-account-balance/main/dist/v1.1.0/SHA256SUMS.txt)。PowerShell 可用 `Get-FileHash .\local-dsh-account-balance-1.1.0.tgz -Algorithm SHA256` 核对。
 
 ## 通过自定义插件索引发现
 
